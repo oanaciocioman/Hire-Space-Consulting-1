@@ -1,0 +1,59 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="apiframework.js"></script>
+  <script src = "selector.js"></script>
+</head> 
+<body>
+<style>
+body  {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+</style>
+<div class="form-style-5">
+<fieldset class="form-style-5">
+<legend class="form-style-5"><span class="number">?</span>Tell us about the party..</legend>
+
+<input type="number" id="budget" class="form-style-5" placeholder="What is your budget?"/>
+<input type="number" id="ibudget" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10" />
+
+<input type="number" id="capacity" class="form-style-5" placeholder="What capacity do you need?"/>
+<input type="number" id="icapacity" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="number" id="surface" class="form-style-5" placeholder="How big the place should be? (square meters)"/>
+<input type="number" id="isurface" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="parkspaces" class="form-style-5" placeholder="Do you need parking spaces?"/>
+<input type="number" min="0" max="10" id="iparkspaces" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="dietary" class="form-style-5" placeholder="Dietary requierements?"/>
+<input type="number" min="0" max="10" id="idietary" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="disabledaccess" class="form-style-5" placeholder="Do you need access for disabled users?"/>
+<input type="number" id="idisabledaccess" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="wifi" class="form-style-5" placeholder="Do you need Wi-Fi? (d'uaah)"/>
+<input type="number" id="iwifi" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="externalcatering" class="form-style-5" placeholder="Do you bring your own food?"/>
+<input type="number" id="iexternalcatering" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="externalalcohol" class="form-style-5" placeholder="Do you bring your own drinks?"/>
+<input type="number" id="iexternalalcohol" min="0" max="10" placeholder="importance" style=" width: 15%;" min="0" max="10"/>
+
+<input type="text" id="name" class="form-style-5" placeholder="Type the name of one of your prefered venue"/>
+<input type="text" id="name2" class="form-style-5" placeholder="Type the name of one of your prefered venue"/>
+<input type="text" id="name3" class="form-style-5" placeholder="Type the name of one of your prefered venue"/>
+</fieldset>
+
+<input id="submit" type="submit" class="form-style-5" value="GO!" onclick="test();" readonly="false" style="display: none;" />
+</div>
+<!--<script src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>-->
+
+</body>
+</html>
